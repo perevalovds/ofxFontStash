@@ -9,22 +9,22 @@
 //#define MEASURE_PERFORMANCE
 
 #ifdef MEASURE_PERFORMANCE
-	#include "ofxTimeMeasurements.h"
+#include "ofxTimeMeasurements.h"
 #else
-	#define TIME_SAMPLE_START ;
-	#define TIME_SAMPLE_STOP ;
+#define TIME_SAMPLE_START ;
+#define TIME_SAMPLE_STOP ;
 #endif
 
-class ofApp : public ofBaseApp{
+class ofApp : public ofBaseApp {
 
-	public:
-		void setup();
-		void update();
-		void draw();
-		void keyPressed(int);
+public:
+	void setup();
+	void update();
+	void draw();
+	void keyPressed(int);
 
-		void drawPoint(float x, float y);
+	void drawPoint(float x, float y);
 
-		ofxFontStash font;
-		ofxFontStash unicodeFont;
+	ofxFontStash font;
+	ofxFontStash unicodeFont;
 };
