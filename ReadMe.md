@@ -32,7 +32,9 @@ Font Stash was originally created and [published](http://digestingduck.blogspot.
 
 ## Notes
 
-To get this to work on a Raspberry Pi, you need to rename "libs/fontstash/src/fontstash.c" and "libs/fontstash/src/stb_truetype.c" from *.c to *.cpp.
+* Please call ofFill(); before drawing font (required in oF 0.10.1).
+
+* To get this to work on a Raspberry Pi, you need to rename "libs/fontstash/src/fontstash.c" and "libs/fontstash/src/stb_truetype.c" from *.c to *.cpp.
 
 ## License
 

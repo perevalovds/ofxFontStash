@@ -48,6 +48,7 @@ void ofApp::draw(){
 
 	ofSetColor(255);
 	TIME_SAMPLE_START("simple draw");
+	ofFill();				//NOTE: to render fonts properly, please always set ofFill() mode 
 	font.draw(
 				  demoText,	//text to draw
 				  fontSize,	//font size
