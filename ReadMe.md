@@ -34,6 +34,8 @@ Font Stash was originally created and [published](http://digestingduck.blogspot.
 
 * Please call ofFill(); before drawing font (required in oF 0.10.1).
 
+* Convert your H and CPP files to Unicode encoding (in Windows it can be made using NotePad++).
+
 * To get this to work on a Raspberry Pi, you need to rename "libs/fontstash/src/fontstash.c" and "libs/fontstash/src/stb_truetype.c" from *.c to *.cpp.
 
 ## License
