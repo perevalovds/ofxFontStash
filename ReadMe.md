@@ -32,7 +32,7 @@ Font Stash was originally created and [published](http://digestingduck.blogspot.
 
 ## Notes
 
-* Please call ofFill(); before drawing font (required in oF 0.10.1).
+* Please call "ofFill();" and "font.setSize(20);" (instead 20 - any other size) before drawing font (required in oF 0.10.1).
 
 * Convert your H and CPP files to Unicode encoding (in Windows it can be made using NotePad++).
 
